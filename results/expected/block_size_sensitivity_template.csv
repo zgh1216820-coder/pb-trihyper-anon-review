@@ -1,0 +1,4 @@
+setting,effective_q,config,test_accuracy
+cifar100_dir03_20c,128,config/icdm/block_size/cifar100_dir03_20c_q128.yaml,fill_after_run
+cifar100_dir03_20c,256,config/icdm/block_size/cifar100_dir03_20c_q256.yaml,fill_after_run
+cifar100_dir03_20c,512,config/icdm/block_size/cifar100_dir03_20c_q512.yaml,fill_after_run

@@ -1,0 +1,11 @@
+setting,dataset,partition,clients,routing_granularity,test_accuracy
+cifar100_dir03_20c,cifar100,Dirichlet-0.3,20,block,43.48
+cifar100_path20_20c,cifar100,Path-20,20,block,55.9
+cifar100_dir03_10c,cifar100,Dirichlet-0.3,10,block,41.82
+cifar100_path20_10c,cifar100,Path-20,10,block,58.59
+cifar10_dir03_100c,cifar10,Dirichlet-0.3,100,block,80.02
+cifar10_dir03_50c,cifar10,Dirichlet-0.3,50,block,78.79
+cifar10_path2_100c,cifar10,Path-2,100,block,91.27
+cifar10_path2_50c,cifar10,Path-2,50,block,91.3
+emnist_dir03_1000c,emnist,Dirichlet-0.3,1000,block,89.44
+emnist_path20_1000c,emnist,Path-20,1000,block,90.09

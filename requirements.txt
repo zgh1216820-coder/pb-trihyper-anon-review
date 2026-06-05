@@ -1,0 +1,16 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch
+torchvision
+hydra-core
+omegaconf
+ray
+numpy
+scipy
+scikit-learn
+matplotlib
+seaborn
+rich
+tensorboard
+nvidia-ml-py
+pandas
+tqdm

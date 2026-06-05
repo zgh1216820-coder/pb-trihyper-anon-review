@@ -1,0 +1,31 @@
+# Generated data and experiment outputs
+data/*/
+out/
+outputs/
+checkpoints/
+runs/
+[w]andb/
+[t]ensorboard/
+events.out.tfevents*
+model_saved/
+
+# Model and partition artifacts
+*.pt
+*.pth
+*.pkl
+*.npz
+*.npy
+
+# Python/cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Local/private editor files
+.env/
+.idea/
+.vscode/
+*.log
+.DS_Store
