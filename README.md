@@ -24,6 +24,10 @@ pip install -r requirements.txt
 
 The default `requirements.txt` includes the CUDA 12.1 PyTorch wheel index. Adjust the PyTorch install line if your review environment uses CPU-only PyTorch or a different CUDA version.
 
+## Computing Environment
+
+Full benchmark experiments reported in the paper were run on NVIDIA A100 GPUs. This anonymous release was smoke-tested on CPU only to verify installation, method registration, and one-round execution. Exact wall-clock time depends on local hardware and is not used as a reported metric.
+
 ## Dataset Preparation
 
 Datasets are generated with the FL-bench partitioning entry point. The generated partition metadata is saved under `data/<dataset>/` as `args.json`, `partition.pkl`, and related files.

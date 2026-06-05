@@ -36,6 +36,17 @@ The `pb_trihyper` files expose the anonymous method name through the FL-bench dy
 - `scripts/audit_budget.py --root .` passed after removing temporary smoke-test data and outputs.
 - Identity grep checks found no author placeholders, institution placeholders, home paths, Windows user paths, emails, or private server strings.
 
+## Computing environment
+
+- Full benchmark experiments reported in the paper were run on NVIDIA A100 GPUs.
+- This anonymous release was smoke-tested on CPU only to verify installation, method registration, and one-round execution.
+- Exact wall-clock time depends on local hardware and is not used as a reported metric.
+
+## Reproducibility checklist note
+
+- Q5.6: Yes, because the README describes the computing environment.
+- Q5.5: No, because the paper does not report average runtime or energy cost.
+
 ## Known limitations
 
 - Raw datasets and large checkpoints are intentionally excluded.
